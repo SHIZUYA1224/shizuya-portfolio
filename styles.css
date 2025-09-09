@@ -63,3 +63,6 @@ h2{font-size:clamp(22px, 3vw, 28px); margin:var(--space-6) 0 var(--space-2);}
 @media (max-width:640px){
   .nav a{margin-left:var(--space-2)}
 }
+.muted { color: var(--muted); }
+.card.wip { opacity: 0.9; }
+.card.wip .btn[aria-disabled="true"] { opacity: 0.6; pointer-events: none; cursor: not-allowed; }
