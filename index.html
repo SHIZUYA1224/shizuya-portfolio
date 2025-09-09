@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SHIZUYA Portfolio</title>
+  <meta name="description" content="SHIZUYA のポートフォリオ。3Dモデリング、Unity、AI、音楽の作品を公開。">
+  <meta property="og:title" content="SHIZUYA Portfolio">
+  <meta property="og:description" content="3D・Unity・AI・音楽の作品をまとめています。">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og.png">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="brand" href="#">
+        <img src="assets/logo.svg" alt="SHIZUYA" width="40" height="40">
+        <span>SHIZUYA</span>
+      </a>
+      <nav class="nav">
+        <a href="#works">Works</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container" aria-labelledby="hero-title">
+      <h1 id="hero-title">SHIZUYA — 3D / Unity / AI / Music</h1>
+      <p class="lead">
+        「黒 × 黄 × 白」の高コントラストでまとめた最小ポートフォリオ（Day1-2版）。<br>
+        まずは <strong>公開できる箱</strong> を最速で作ることが目的です。
+      </p>
+      <div class="hero-actions">
+        <a class="btn" href="#works">作品を見る</a>
+        <a class="btn ghost" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </section>
+
+    <section id="works" class="container section">
+      <h2>Works（ダミー）</h2>
+      <p class="muted">ここに作品カードを並べます。まずは1枚でもOK。後で差し替えられるようプレースホルダを置いています。</p>
+      <div class="grid">
+        <article class="card">
+          <div class="thumb skeleton" aria-hidden="true"></div>
+          <div class="card-body">
+            <h3>3D Model #01（プレースホルダ）</h3>
+            <p>複数アングル画像とUnityデモ動画をここに配置。制作過程（ワイヤー、UV）へのリンクも。</p>
+            <div class="card-actions">
+              <a class="btn small" href="#" aria-disabled="true">詳細</a>
+              <a class="btn small ghost" href="#" aria-disabled="true">GitHub</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <p>
+        Unity・3Dモデリング・AI連携・DTMを横断して作品を作っています。<br>
+        採用担当の方向けに、短く経歴とスキルスタックを記載してください（200〜300字程度）。
+      </p>
+      <ul class="tags">
+        <li>Unity</li><li>Blender</li><li>FastAPI</li><li>GitHub Pages</li><li>Docker（予定）</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Contact</h2>
+      <p>ご連絡は <a href="mailto:you@example.com">you@example.com</a> まで。SNSリンクも配置できます。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> SHIZUYA</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
