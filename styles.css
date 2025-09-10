@@ -66,3 +66,22 @@ h2{font-size:clamp(22px, 3vw, 28px); margin:var(--space-6) 0 var(--space-2);}
 .muted { color: var(--muted); }
 .card.wip { opacity: 0.9; }
 .card.wip .btn[aria-disabled="true"] { opacity: 0.6; pointer-events: none; cursor: not-allowed; }
+
+:root{
+  --muted:#8b8b8b; /* 既にあればこのままでOK */
+}
+
+.tags{
+  display:flex; gap:8px; flex-wrap:wrap; padding:0; margin:12px 0 0;
+  list-style:none;
+}
+.tags li{
+  border:1px solid var(--border, #e5e5e5);
+  padding:2px 8px; border-radius:999px; font-size:0.9rem;
+}
+
+nav a.active{
+  font-weight:700;
+  text-decoration:underline;
+  text-underline-offset: 3px;
+}
