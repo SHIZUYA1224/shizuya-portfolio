@@ -12,3 +12,6 @@
 
 ## PR練習メモ
 この行はブランチ作成～PR～マージの練習で追加しました。（日付を入れると尚よし）
+
+## 公開URL
+https://kubotashizuya.github.io/Portfolio/

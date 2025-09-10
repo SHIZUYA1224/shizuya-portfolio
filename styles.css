@@ -97,3 +97,12 @@ nav a.active{
   display: block;
   border-radius: 8px;
 }
+
+.nav{display:flex; gap:16px; list-style:none; padding:12px 0; margin:0;}
+.nav-link{padding:4px 6px; text-decoration:none;}
+.nav-link.active{font-weight:700; text-decoration:underline; text-underline-offset:3px;}
+
+.footer{border-top:1px solid var(--border,#e5e5e5); margin-top:40px; padding-top:12px;}
+
+img{max-width:100%; height:auto;}
+img[loading="lazy"]{content-visibility:auto;}

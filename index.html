@@ -1,37 +1,35 @@
 <!doctype html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
   <title>SHIZUYA Portfolio</title>
-  <meta name="description" content="SHIZUYA のポートフォリオ。3Dモデリング、Unity、AI、音楽の作品を公開。">
-  <meta property="og:title" content="SHIZUYA Portfolio">
-  <meta property="og:description" content="3D・Unity・AI・音楽の作品をまとめています。">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="assets/og.png">
-  <link rel="icon" href="assets/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="3Dモデリング / Unity / FastAPI / DTM の制作ポートフォリオ（WIP）。" />
+
+  <!-- Canonical（公開URLを固定）-->
+  <link rel="canonical" href="https://kubotashizuya.github.io/Portfolio/" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+
+  <!-- OGP / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SHIZUYA Portfolio" />
+  <meta property="og:description" content="3D / Unity / FastAPI / DTM のWIPポートフォリオ。" />
+  <meta property="og:url" content="https://kubotashizuya.github.io/Portfolio/" />
+  <meta property="og:image" content="https://kubotashizuya.github.io/Portfolio/assets/ogp.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="stylesheet" href="styles.css?v=20250910" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container">
-      <a class="brand" href="#">
-        <img src="assets/logo.svg" alt="SHIZUYA" width="40" height="40">
-        <span>SHIZUYA</span>
-      </a>
-      <!-- 例：index.html ではトップに active -->
-      <nav>
-        <ul>
-          <li><a href="index.html" class="active">トップ</a></li>
-          <li><a href="works.html">作品ページ</a></li>
-          <li><a href="profile.html">プロフィール</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <nav class="container" aria-label="Main">
+    <ul class="nav">
+      <li><a href="index.html" class="nav-link active">トップ</a></li>
+      <li><a href="works.html" class="nav-link">作品ページ</a></li>
+      <li><a href="profile.html" class="nav-link">プロフィール</a></li>
+    </ul>
+  </nav>
 
   <main>
     <section class="hero container" aria-labelledby="hero-title">
@@ -90,6 +88,9 @@
         本サイトは進行中の成果物を順次公開していく“ワークインプログレス”として運用しています。
         完成次第、詳細と制作プロセスを追加予定です。
       </p>
+      <p>
+        公開URL：<a href="https://kubotashizuya.github.io/Portfolio/" target="_blank" rel="noopener">こちら</a>
+      </p>
       <ul class="tags">
         <li>Unity</li><li>Blender</li><li>FastAPI</li><li>GitHub Pages</li><li>Docker（予定）</li>
       </ul>
@@ -101,9 +102,9 @@
     </section>
   </main>
 
-    <footer class="container section" style="border-top:1px solid var(--border,#e5e5e5); margin-top:40px; padding-top:16px;">
-      <small>© 2025 SHIZUYA. Portfolio (WIP)</small>
-    </footer>
+    <footer class="container section footer">
+  <small>© 2025 SHIZUYA · <a href="https://github.com/kubotashizuya/Portfolio" target="_blank" rel="noopener">GitHub</a> · <a href="sitemap.xml">Sitemap</a></small>
+</footer>
 
   <script>
     // 年の表示用スクリプトは削除（対応する要素がないため）
