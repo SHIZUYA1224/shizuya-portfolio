@@ -15,3 +15,11 @@
 
 ## 公開URL
 https://shizuya1224.github.io/shizuya-portfolio
+
+## API（FastAPI）
+
+### 起動
+```bash
+cd api
+source venv/bin/activate
+uvicorn main:app --reload
